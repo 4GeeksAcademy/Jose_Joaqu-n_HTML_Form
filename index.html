@@ -36,7 +36,8 @@
       <section>
         <div class="row">
           <div class="col-5 form-check">
-            <label for="card-number">Card #</label>
+            <form>
+              <label for="card-number">Card #</label>
             <input
               type="number"
               id="card-number"
@@ -44,9 +45,11 @@
               placeholder="XXXXXXXXXXXXX"
               class="form-control"
             />
+            </form>
           </div>
           <div class="col-3 form-check">
-            <label for="cvc-number">CVC #</label>
+            <form>
+              <label for="cvc-number">CVC #</label>
             <input
               type="number"
               id="cvc-number"
@@ -54,9 +57,11 @@
               placeholder="0000"
               class="form-control"
             />
+            </form>
           </div>
           <div class="col-4 form-check">
-            <label for="amount">Amount</label>
+            <form action="">
+              <label for="amount">Amount</label>
             <div class="input-group">
               <span class="input-group-text">$</span>
               <input
@@ -66,6 +71,7 @@
                 placeholder="Amount"
                 class="form-control"
               />
+            </form>
             </div>
           </div>
         </div>
@@ -74,7 +80,8 @@
       <div class="row">
         <!-- Left side-->
         <div class="col-6">
-          <label for="first-name" class="form-label">First Name</label>
+          <form>
+            <label for="first-name" class="form-label">First Name</label>
           <input
             type="text"
             id="first-name"
@@ -164,10 +171,12 @@
               </div>
             </div>
           </div>
+          </form>
         </div>
         <!-- Right side-->
         <div class="col-md-6">
-          <label for="lastName" class="form-label">Last Name</label>
+          <form>
+            <label for="lastName" class="form-label">Last Name</label>
           <input
             type="text"
             id="last-name"
@@ -202,6 +211,7 @@
           <label for="message" class="form-label">Message</label>
           <textarea id="message" class="form-control" rows="4"></textarea>
           <footer class="text-muted p-2">Add any notes here.</footer>
+          </form>
         </div>
       </div>
 
